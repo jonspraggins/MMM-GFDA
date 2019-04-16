@@ -4,7 +4,7 @@ This module displays a random bit of thought-provoking, and possibly not safe fo
 
 ## Screenshots
 - Screenshot
-![GFDA Screenshot](gfda_screenshot.png)
+![GFDA Screenshot](gfdascreenshot.png)
 
 ## Installation
 ```javascript
