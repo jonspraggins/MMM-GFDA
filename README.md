@@ -6,6 +6,11 @@ This module displays a random bit of thought-provoking, and possibly not safe fo
 - Compliments Screenshot
 ![Compliments Screenshot](gfdas_screenshot.png)
 
+## Installation
+```javascript
+cd ~/MagicMirror/modules
+git clone https://github.com/jonspraggins/MMM-GFDA.git
+
 ## Using the module
 
 To use this module, add it to the modules array in the `config/config.js` file:
