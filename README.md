@@ -3,8 +3,8 @@ The 'gfda' module is a module for the MagicMirror and is a derrivative of 'gfdas
 This module displays a random bit of thought-provoking, and possibly not safe for work, design advice.
 
 ## Screenshots
-- Compliments Screenshot
-![Compliments Screenshot](gfdas_screenshot.png)
+- Screenshot
+![GFDA Screenshot](gfda_screenshot.png)
 
 ## Installation
 ```javascript
