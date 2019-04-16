@@ -310,7 +310,7 @@ Module.register("gfda", {
 						"Quality over fucking quantity.",
 						"Expertise is fucking expensive.",
 						"Earn your fucking experience.",
-						"Change the fucking terms of business.",
+						"Change the fucking terms of business."
 			],
 			morning: [
 				"Good fucking morning",
@@ -333,10 +333,10 @@ Module.register("gfda", {
 				"Create your own fucking opportunities.",
 				"Fall in love with repetition and fucking practice.",
 				"Celebrate your fucking failures.",
-				"Make the fucking leap.",
+				"Make the fucking leap."
 			],
 			evening: [
-				"Fucking sleep on it.",
+				"Fucking sleep on it."
 			]
 		},
 		updateInterval: 30000,
