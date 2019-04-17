@@ -10,13 +10,13 @@ This module displays a random bit of thought-provoking, and possibly not safe fo
 ```javascript
 cd ~/MagicMirror/modules
 git clone https://github.com/jonspraggins/MMM-GFDA.git
-
+```
 ## Using the module
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: "gfda",
+		module: "MMM-GFDA",
 		position: "lower_third",	// This can be any of the regions.
 						// Best results in one of the middle regions like: lower_third
 		config: {
