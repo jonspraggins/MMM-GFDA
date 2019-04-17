@@ -1,5 +1,5 @@
 # Module: GoodFuckingDesignAdvice
-The 'gfda' module is a module for the MagicMirror and is a derrivative of 'gfdas'
+The 'gfda' module is a module for the MagicMirror and is a shameless derivative of the 'compliments' module.
 This module displays a random bit of thought-provoking, and possibly not safe for work, design advice.
 
 ## Screenshots
@@ -12,17 +12,16 @@ cd ~/MagicMirror/modules
 git clone https://github.com/jonspraggins/MMM-GFDA.git
 
 ## Using the module
-
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
 		module: "gfda",
 		position: "lower_third",	// This can be any of the regions.
-									// Best results in one of the middle regions like: lower_third
+						// Best results in one of the middle regions like: lower_third
 		config: {
 			// The config property is optional.
-			// If no config is set, the default gfdas are shown.
+			// If no config is set, the default advice is shown.
 			// See 'Configuration options' for more information.
 		}
 	}
