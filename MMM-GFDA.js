@@ -12,6 +12,7 @@ Module.register("MMM-GFDA", {
 	defaults: {
 		advice: {
 			anytime: [
+					"Quantify the fucking problem.",
 					"Add some fucking contrast.",
 					"Have a clear fucking hierarchy.",
 					"Use fucking Helvetica.",
@@ -201,8 +202,6 @@ Module.register("MMM-GFDA", {
 					"Don't covet your fucking ideas.",
 					"Give away everything you fucking know.",
 					"First impressions are fucking critical.",
-					"Hire a fucking developer.",
-					"Learn to adapt or fucking die.",
 					"Stay fucking passionate.",
 					"Own your fucking failures.",
 					"Be fucking authentic.",
