@@ -1,6 +1,6 @@
 # Module: GoodFuckingDesignAdvice
 The 'gfda' module is a module for the MagicMirror and is a shameless derivative of the 'compliments' module.
-This module displays a random bit of thought-provoking, and possibly not safe for work, design advice.
+This module displays a random bit of thought-provoking, and not safe for work, advice.
 
 ## Screenshots
 - Screenshot
@@ -47,12 +47,12 @@ The following properties can be configured:
 
 All the rest of the time that does not fall into the morningStartTime-morningEndTime and afternoonStartTime-afternoonEndTime ranges is considered "evening".
 
-### Compliment configuration
+### GFDA configuration
 
-The `gfdas` property contains an object with four arrays: <code>morning</code>, <code>afternoon</code>, <code>evening</code> and <code>anytime</code>. Based on the time of the day, the gfdas will be picked out of one of these arrays. The arrays contain one or multiple gfdas.
+The `advice` property contains an object with four arrays: <code>morning</code>, <code>afternoon</code>, <code>evening</code> and <code>anytime</code>. Based on the time of the day, the gfdas will be picked out of one of these arrays. The arrays contain one or multiple gfdas.
 
 
-If use the currentweather is possible use a actual weather for set gfdas. The availables properties are:
+If use the currentweather is possible use a actual weather for set advice. The availables properties are:
 - `day_sunny`
 - `day_cloudy`
 - `cloudy`
@@ -94,9 +94,9 @@ First line.
 Second line.
 ```
 
-### External Compliment File
-You may specify an external file that contains the three gfda arrays. This is particularly useful if you have a
-large number of gfdas and do not wish to crowd your `config.js` file with a large array of gfdas.
+### External File
+You may specify an external file that contains the three gfda arrays. This is particularly useful if you have additional
+advice and do not wish to crowd your `config.js` file with a large array of advice.
 Adding the `remoteFile` variable will override an array you specify in the configuration file.
 
 This file must be straight JSON. Note that the array names need quotes
@@ -116,4 +116,3 @@ around them ("morning", "afternoon", "evening", "snow", "rain", etc.).
     ]
 }
 ````
-
