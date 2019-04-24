@@ -1,6 +1,6 @@
 # Module: GoodFuckingDesignAdvice
 The 'gfda' module is a module for the MagicMirror and is a shameless derivative of the 'compliments' module.
-This module displays a random bit of thought-provoking, and not safe for work, advice.
+This module displays a random bit of thought-provoking, and possibly not safe for work, advice.
 
 ## Screenshots
 - Screenshot
@@ -105,7 +105,7 @@ around them ("morning", "afternoon", "evening", "snow", "rain", etc.).
 ````json
 {
     "anytime" : [
-        "Hey there sexy!"
+        "Carpe-fucking-diem"
     ],
     "morning" : [
         "Good fucking morning!",
