@@ -10,7 +10,7 @@ Two options:
 cd ~/MagicMirror/modules/default/compliments/
 wget https://github.com/jonspraggins/MMM-GFDA/gfda.json
 ```
-the modify the compliments config in `config/config.js`
+then modify the compliments config in `config/config.js`
 
 ````javascript
 		config: {
