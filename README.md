@@ -1,6 +1,8 @@
 # GoodFuckingDesignAdvice compliments file
 This file displays a random bit of thought-provoking, and possibly not safe for work, advice. This is used by the compliments module for Magic Mirror.
 
+Credit to the good fucking people at https://gfda.co/
+
 ## Installation
 Two options:  
 1. You can download this file to your compliments module folder and locally reference it:
