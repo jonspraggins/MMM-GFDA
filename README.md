@@ -6,7 +6,7 @@ Credit to the good fucking people at https://gfda.co/
 ## Installation
 Two options :  
 
-#Option 1
+### Option 1
 You can download this file to your compliments module folder and locally reference it:
 ```javascript
 cd ~/MagicMirror/modules/default/compliments/
@@ -18,7 +18,7 @@ then modify the compliments config in `config/config.js`
 			remoteFile: 'gfda.json'
                         }
 ````
-#Option 2
+### Option 2
 Directly reference this file on github in the compliments section of the `config/config.js` file:
 ````javascript
 		config: {
