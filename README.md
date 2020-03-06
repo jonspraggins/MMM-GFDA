@@ -14,14 +14,14 @@ wget https://github.com/jonspraggins/MMM-GFDA/gfda.json
 ```
 then modify the compliments config in `config/config.js`
 ````javascript
-		config: {
-			remoteFile: 'gfda.json'
-                        }
+config: {
+	remoteFile: 'gfda.json'
+        }
 ````
 ### Option 2
 Directly reference this file on github in the compliments section of the `config/config.js` file:
 ````javascript
-		config: {
-			remoteFile: 'https://raw.githubusercontent.com/jonspraggins/MMM-GFDA/master/gfda.json'
-                        }
+config: {
+	remoteFile: 'https://raw.githubusercontent.com/jonspraggins/MMM-GFDA/master/gfda.json'
+        }
 ````
